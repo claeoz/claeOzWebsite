@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clae Oczachowski Schedule</title>
+    <link href="../css/general.css" rel="stylesheet">
+    <link href="../css/schedule.css" rel="stylesheet">
+    <link rel="icon" href="../img/claysoftlogo1.png">
+    <script src="../js/schedule.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Schedule An appointment today</h1>
+    </header>
+    <p>
+        you're more than welcome to schedule a consultation, a commission for a website or 3d model, 
+        ,or a interview just fill out the form bellow and I'll get to your submission as soon as I can
+    </p>
+    <form class="request" id="request">
+        <label>First Name</label>
+        <input id="firstName" name="firstName" required>
+
+        <label>Last Name</label>
+        <input id="lastName" name="lastName" required>
+
+        <label>Prefered Method of Contact</label>
+        <ul>
+            <label>
+                <label>Email</label>
+                <input type="radio" name="preferedContact" id="EmailContact">
+            </label>
+            <label>
+                <label>Phone</label>
+                <input type="radio" name="preferedContact" id="PhoneContact">
+            </label>
+        </ul>
+        <label>Phone</label>
+        <input id="PhoneNumber" type="tel" name="phoneNumber" required>
+        <label>Email</label>
+        <input id="Email" type="email" name="email" required>
+        <label>Type of appointment</label>
+        <select id="type" name="type" required>
+            <option>NA</option>
+            <option>consultation</option>
+            <option>website commission</option>
+            <option>3d model commission</option>
+            <option>colab project</option>
+            <option>job interview</option>
+        </select>
+        <label>details on request</label>
+        <input id="details" type="text" name="type" required>
+    
+        <input type="submit" value="submit" id="submit">
+        <p id="queue" class="queue"></p>
+    </form>
+    <footer>
+        <nav class="footnav">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="aboutMe.html">ABOUT ME</a></li>
+                <li><a href="personalProjects.html">PERSONAL PROJECTS</a></li>
+                <li><a href="schedule.html">SCHEDULE A MEETING</a></li>
+            </ul>
+            <span>contact me at <a href="mailto:claemiller@gmail.com">claemiller@gmail.com</a> 715-***-**** <a href="https://www.linkedin.com/in/clae-oczachowski-33529128a/">Linkdeln</a></span>
+        </nav>
+    </footer>
+</body>
