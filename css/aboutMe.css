@@ -1,0 +1,25 @@
+@charset "utf-8";
+.profficiencies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profficiencies > ul > img{
+    width: 150px;
+    margin: 5px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+strong{
+    color: yellow;
+    font-size: 1.5em;
+}
+.quote{
+    background-color: #fff085;
+    font-size: 4em;
+    margin: 40px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+body {
+    background-color: bisque;
+    margin: 30px;
+}
+header{
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    text-indent: 4em;
+}
+.footnav > ul{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footnav > ul > li{
+    list-style: none;
+    font-style: oblique;
+}
+.footnav > ul > li{
+    align-content: center;
+    display: inline;
+    margin: 0px;
+}
+.footnav > span{
+    margin-left: 20px;
+}
+footer{
+    background-color: orange;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}

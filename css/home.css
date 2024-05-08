@@ -1,0 +1,39 @@
+@charset "utf-8";
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profilepicture{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 10px;
+    border-color: yellow;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+.profilepicture:hover{
+    transform: scale(200%);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+@media only screen and (max-width: 768px){
+    article{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 480px) {
+    article{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+}

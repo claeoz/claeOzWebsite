@@ -1,0 +1,26 @@
+@charset "utf-8";
+.request{
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 10px;
+    border-color: beige;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+.queue{
+    background-color: white;
+}
+@media only screen and (max-width: 768px){
+    .request{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .request{
+        grid-template-columns: 1fr;
+    }
+}
